@@ -10,17 +10,15 @@
     "location": { "postalCode": "31-272", "city": "Kraków", "countryCode": "PL", "region": "Małopolskie" },
     "profiles": [
       { "network": "github", "username": "MyKarcio123", "url": "https://github.com/MyKarcio123" },
-      { "network": "linkedin", "username": "KarolWięckowiak", "url": "https://www.linkedin.com/in/karol-więckowiak-b94a61184/" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "linkedin", "username": "KarolWięckowiak", "url": "https://www.linkedin.com/in/karol-więckowiak-b94a61184/" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Algorithmics" },
+    { "name": "Mathematics" },
+    { "name": "Computer Games" },
+    { "name": "History" },
+    { "name": "Geography" }
   ],
   "skills": [
     {
