@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Karol Więckowiak",
+    "label": "AGH UST Student",
+    "picture": "https://media.licdn.com/dms/image/C4E03AQFFJ6HlzF-R5g/profile-displayphoto-shrink_200_200/0/1657103819443?e=1683158400&v=beta&t=YKpre5LNZijgVM95kWuTFbHFgbRtOZ5i2k4UjtPwvBQ",
+    "email": "karol.wieckowiak21@interia.pl",
+    "phone": "+48663163166",
+    "website": "https://mykarcio123.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Faculty of Computer Science, Electronics and Telecommunications at the AGH University of Science and Technology. I expect to graduate in 2024.",
+    "location": { "postalCode": "31-272", "city": "Kraków", "countryCode": "PL", "region": "Małopolskie" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
+      { "network": "github", "username": "MyKarcio123", "url": "https://github.com/MyKarcio123" },
+      { "network": "linkedin", "username": "KarolWięckowiak", "url": "https://www.linkedin.com/in/karol-więckowiak-b94a61184/" },
       { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
       { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
     ]
