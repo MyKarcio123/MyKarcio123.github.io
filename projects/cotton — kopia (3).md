@@ -2,12 +2,13 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "RPG game"
+title: "Procedural Generated World"
 date: 2023
 published: true
 labels:
-  - Lisp
-  - GitHub
+  - Unity3D
+  - C#
+  - Perlin Noise
 summary: "A text adventure game that I developed for ICS 313."
 ---
 
