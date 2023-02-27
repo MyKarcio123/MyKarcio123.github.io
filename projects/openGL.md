@@ -44,7 +44,7 @@ In order to generate our graphics on the screen we will need 3 arrays, which we 
 
 The animation system is simpler than it looks. An animation is nothing more than a small movement repeated every frame of the program. If we know in what position our object is and what position we are aiming at, we can easily calculate the vector in the direction of which our object is moving and every program frame add a small part of our vector, until our object is in the final position +/- a small value (this is because we may 'miss' our final vector).
 
-<img src="../img/openGL/animation.gif" width="50%">
+<img src="../img/openGL/Animation.gif" width="50%">
 
 
 <a href="https://github.com/MyKarcio123/OOPlab/blob/main/Lab7/src/main/java/agh/ics/oop/renderEngine/AnimationController.java">Link</a>
