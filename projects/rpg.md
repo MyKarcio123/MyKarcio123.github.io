@@ -6,8 +6,9 @@ title: "RPG game"
 date: 2023
 published: true
 labels:
-  - Lisp
-  - GitHub
+  - Java
+  - JavaFX
+  - Scene Builder
 summary: "A text adventure game that I developed for ICS 313."
 ---
 
