@@ -2,15 +2,14 @@
 layout: project
 type: project
 image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
+title: "XCOM clone"
+date: 2023
 published: true
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+  - Unity3D
+  - C#
+  - Algorithms
+summary: "My XCOM-style game with proprietary pathfinding algorithm."
 ---
 
 <img class="img-fluid" src="../img/vacay/vacay-home-page.png">
