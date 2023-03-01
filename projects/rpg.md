@@ -9,10 +9,15 @@ labels:
   - Java
   - JavaFX
   - Scene Builder
-summary: "A text adventure game that I developed for ICS 313."
+summary: "A procedurally generated dungeon in an RPG for college exercise."
 ---
 
 <img class="img-fluid" src="../img/rpg/preview.png">
+
+<h3>A short video showing how the project works</h3>
+<video width="80%" controls>
+  <source src="../img/rpg/Intro.mp4" type="video/mp4">
+</video>
 
 <h3>Introduction</h3>
 Originally, the RPG game was supposed to be a game made in pairs as a college exercise. Unfortunately, due to lack of time, it was renamed as a simulator for exploring procedurally generated dungeons.
@@ -87,6 +92,26 @@ Visualization of all the steps done in paint
 <img class="img-fluid" src="../img/rpg/vis.png" width="80%">
 
 <a href="https://github.com/MyKarcio123/OOPlab/blob/main/proj2/src/main/java/agh/ics/oop/rooms/RoomMap.java">Link for github</a>
+
+<h3>Display the illusion of a 3D image on a 2D dimensional plane using JavaFX</h3>
+
+While creating this project, I had to face the problem of displaying 3D graphics on a 2D plane using the tools available in JavaFX. Fortunately, there is such a thing as perspective. I applied the perspective trick using this graphic.
+
+<img class="img-fluid" src="../img/rpg/perspective.png" width="50%" style="background-color: black;">
+
+In order to display the graphics well, I prepared myself separately a minimum number of walls, which I apply using JavaFX to create the image. Depending on where the walls are, how the corridors are laid out, I adjust the overlay of the appropriate wall graphics.
+In scenebuilder everything looks like this, I had to create the right number of imageviews to display the right number of graphics, then for each imageview I select the right graphic.
+
+<img class="img-fluid" src="../img/rpg/scenebuilder.png" width="80%" style="background-color: black;">
+
+<a href="https://github.com/MyKarcio123/OOPlab/blob/main/proj2/src/main/java/agh/ics/oop/gui/gameWindow/GameController.java">Link for github</a>
+
+<h4>Responsive minimap</h4>
+
+The operation of the minimap itself is very simple, every time the movement button is clicked the program creates the minimap once again based on the knowledge of what type of room (corridor,room,boss,store) is in that particular map cell.
+
+<a href="https://github.com/MyKarcio123/OOPlab/blob/main/proj2/src/main/java/agh/ics/oop/gui/gameWindow/GameController.java">Link for github</a>
+
 <hr>
 
 
