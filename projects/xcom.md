@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
-title: "XCOM clone"
-date: 2023
+image: img/xcom/preview-cropp.png
+title: "XCOM clone [work in progress]"
+date: 3
 published: true
 labels:
   - Unity3D
@@ -11,17 +11,23 @@ labels:
   - Algorithms
 summary: "My XCOM-style game with proprietary pathfinding algorithm."
 ---
+<img src="../img/xcom/animation.gif">
+<h3>Introduction</h3>
+My latest project written in unity. So far it includes:
+<ul>
+<li>Grid support</li>
+<li>Easy to customize and expandable action system</li>
+<li>Self-written pathfinding</li>
+<li>Turn-based game system</li>
+<li>Health system</li>
+<ul>
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
-
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
-
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
-
-Here is some example code to illustrate Simple Schema use:
-
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
+There are plans to expand the project to include, among other things:
+<ul>
+<li>Interesting levels</li>
+<li>AI of opponents and adversaries</li>
+<li>Adding more action</li>
+<li>Adding previously purchased graphic effects</li>
+</ul>
  
 Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>

@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/rpg/preview-crop.png
 title: "RPG game"
-date: 2023
+date: 5
 published: true
 labels:
   - Java

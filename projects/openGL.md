@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/openGL/preview-second-crop.png
 title: "Darwinian simulation with OpenGL"
-date: 2023
+date: 2
 published: true
 labels:
   - Java

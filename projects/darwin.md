@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/darwin/preview-crop.png
 title: "Darwinian simulation"
-date: 2023
+date: 4
 published: true
 labels:
   - Java

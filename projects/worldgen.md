@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/worldgen/preview-crop.png
 title: "Procedural Generated World"
-date: 2023
+date: 1
 published: true
 labels:
   - Unity3D
