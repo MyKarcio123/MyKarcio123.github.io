@@ -30,4 +30,6 @@ There are plans to expand the project to include, among other things:
 <li>Adding previously purchased graphic effects</li>
 </ul>
  
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
+<hr>
+
+<a href="https://github.com/MyKarcio123/xcom"><i class="large github icon "></i>Source</a>
