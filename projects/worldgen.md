@@ -9,7 +9,7 @@ labels:
   - Unity3D
   - C#
   - Perlin Noise
-summary: "A text adventure game that I developed for ICS 313."
+summary: "My first exposure to perlin noise, based on the tutorial."
 ---
 
 <img class="img-fluid" src="../img/worldgen/banner.png">
