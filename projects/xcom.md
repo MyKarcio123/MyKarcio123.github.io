@@ -4,7 +4,7 @@ type: project
 image: img/xcom/preview-cropp.png
 title: "XCOM clone [work in progress]"
 date: 2
-published: false
+published: true
 labels:
   - Unity3D
   - C#
