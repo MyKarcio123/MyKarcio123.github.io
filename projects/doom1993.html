@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Doom1993 | Karol Więckowiak | Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://media.licdn.com/dms/image/C4E03AQFFJ6HlzF-R5g/profile-displayphoto-shrink_200_200/0/1657103819443?e=1683158400&v=beta&t=YKpre5LNZijgVM95kWuTFbHFgbRtOZ5i2k4UjtPwvBQ">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Karol Więckowiak | Portfolio">
+    <meta property="og:url" content="https://mykarcio123.github.io/projects/doom1993.html">
+    <meta property="og:title" content="Doom1993 | Karol Więckowiak | Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://media.licdn.com/dms/image/C4E03AQFFJ6HlzF-R5g/profile-displayphoto-shrink_200_200/0/1657103819443?e=1683158400&v=beta&t=YKpre5LNZijgVM95kWuTFbHFgbRtOZ5i2k4UjtPwvBQ">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Doom1993 | Karol Więckowiak | Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Karol Więckowiak</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Doom1993</h1>
+ <p><img class="img-fluid" src="../img/doom/banner.png" /></p>
+
+<h3>A short video showing how the project works (Lags are by my poor laptop.)</h3>
+<video width="80%" controls="">
+  <source src="../img/doom/doommovie.mp4" type="video/mp4" />
+</video>
+
+<h3>Introduction</h3>
+<p>I prepared the project I was doing during the vacations. It was my first big project done in unity. All elements of the game, except graphics and sounds are made by me. The game consists of the following elements:</p>
+<ul>
+<li>Weapon system (so far I have implemented two)</li>
+<li>AI of opponents done with FSM</li>
+<li>Ability to take pick ups (health, armor)</li>
+<li>Door mechanics that can be freely opened by pressing the spacebar</li>
+<li>Self-created 3D level model using Probuilder</li>
+<li>Self-created animations</li>
+<li>Interactive UI</li>
+</ul>
+
+<h3>Weapons system</h3>
+
+<p>To handle hitscan weapons, I wrote a very versatile script in which you can edit, among other things: range, damage, number of shots fired at once, cooldown between shots, the type of ammunition the weapon should shoot, the effect of the shot, the effect of hitting the enemy, sound and angles. <a href="https://github.com/MyKarcio123/Doom1993/blob/main/Assets/Scripts/WeaponController.cs">Link</a></p>
+
+<p><img src="../img/doom/gunmenu.png" /></p>
+
+<p>The most interesting thing I learned in setting up the shooting system is to calculate the spread fairly. Delving into how the spread is calculated in the orginal version of the game, I learned that it uses a normal distribution, and I immediately saw that this is a brilliant idea. Thanks to the normal distribution, we are guaranteed a fairly (for the player) caluclated scatter. Most of the shots aimed at opponents will hit (with a probability of about 68-95%, depends on the width of the opponent and the sigma we set). The others will be misses. With a normal draw, with a uniform distribution, the probability of spread is hard to balance so that it gives pleasure to the player, which is, after all, what we want! <a href="https://github.com/MyKarcio123/Doom1993/blob/main/Assets/Scripts/RandomFunction.cs">Link</a></p>
+
+<p><img src="../img/doom/normaldistribution.png" /></p>
+
+<h3>AI</h3>
+<p>The AI I prepared is a very simple version of the FSM. Based on a reaserch I did, the first doom games used FSM, they had several states defined and depending on certain conditions they would switch between them. My implementation contains the same states ( i.e. Die, XDie, Melee, Pain, Range, See, Spawn). If you have played Doom you probably know what each state looks like. Also, I mapped the feature that when you shoot, there is a defined chance that the opponent will enter the Pain state, in which there will be an animation of pain from the shot, and it will give you a few seconds for extra shots! In addition, I used navmesh for pathfinding. <a href="https://github.com/MyKarcio123/Doom1993/tree/main/Assets/Scripts/EnemyAi">Link</a></p>
+
+<p><img src="../img/doom/fsm.png" /></p>
+
+<h3>Graphic effects</h3>
+<p>All graphic effects such as animation, UI, level I recommend testing in the game itself :)</p>
+
+<hr />
+
+<p><a href="https://github.com/MyKarcio123/Doom1993"><i class="large github icon "></i>Source</a></p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

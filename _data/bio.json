@@ -1,0 +1,23 @@
+{
+  "basics": {
+    "name": "Karol Więckowiak",
+    "label": "AGH UST Student",
+    "picture": "https://media.licdn.com/dms/image/C4E03AQFFJ6HlzF-R5g/profile-displayphoto-shrink_200_200/0/1657103819443?e=1683158400&v=beta&t=YKpre5LNZijgVM95kWuTFbHFgbRtOZ5i2k4UjtPwvBQ",
+    "email": "karol.wieckowiak21@interia.pl",
+    "phone": "+48663163166",
+    "website": "https://mykarcio123.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Faculty of Computer Science, Electronics and Telecommunications at the AGH University of Science and Technology. I expect to graduate in 2024.",
+    "location": { "postalCode": "31-272", "city": "Kraków", "countryCode": "PL", "region": "Małopolskie" },
+    "profiles": [
+      { "network": "github", "username": "MyKarcio123", "url": "https://github.com/MyKarcio123" },
+      { "network": "linkedin", "username": "KarolWięckowiak", "url": "https://www.linkedin.com/in/karol-więckowiak-b94a61184/" }
+    ]
+  },
+  "interests": [
+    { "name": "Algorithmics" },
+    { "name": "Mathematics" },
+    { "name": "Computer Games" },
+    { "name": "History" },
+    { "name": "Geography" }
+  ]
+}
